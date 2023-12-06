@@ -31,7 +31,7 @@ def get_game_power(games: list[str]):
     return maximum_dict["red"] * maximum_dict["green"] * maximum_dict["blue"]
 
 
-with open("cube_conundrum/input.txt", "r") as file:
+with open("02_cube_conundrum/input.txt", "r") as file:
     result = 0
     power_sum = 0
     for i, line in enumerate(file):

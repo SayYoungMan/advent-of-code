@@ -62,7 +62,7 @@ def convert_calibration_str_to_number(calibration):
     return word_dict[calibration]
 
 
-with open("trebuchet/input.txt", "r") as file:
+with open("01_trebuchet/input.txt", "r") as file:
     result = 0
     new_result = 0
 

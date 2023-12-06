@@ -23,7 +23,7 @@ def process_data(line: str):
     have_numbers.append(process_as_number_list(have_part))
 
 
-with open("scratchcards/input.txt", "r") as file:
+with open("04_scratchcards/input.txt", "r") as file:
     for line in file:
         process_data(line)
 

@@ -120,7 +120,7 @@ def get_gear_ratio_sum():
     return result
 
 
-with open("gear_ratios/input.txt", "r") as file:
+with open("03_gear_ratios/input.txt", "r") as file:
     for line in file:
         engine_matrix.append([x for x in line])
 
